@@ -3,19 +3,19 @@ Abstract
 
 "-viewDidDisappear" is not called when collapsing UISplitViewController unless "nesting" navigation controllers under iOS 8 on iPhone 6+.
 
-Note: It appears iOS 9 fixes this, and we want Apple to confirm that SDK behavior under iOS 9 is indeed correct (and iOS 8 wrong).
+Note: It appears iOS 9 fixes this.
 
 The presumed bug
 ================
 
 Steps:
-1. Launch sample app in landscape orientation on iPhone 6+ 8.4 simulator
+1. Launch the app in landscape orientation on iPhone 6+ 8.4 simulator
 2. Rotate to portrait, causing split view controller to collapse.
 3. Tap "back" to pop the top view controller
 Expected: the top view controller's -viewWillDisappear: and -viewDidDisappear: methods are called
 Actually: the top view controller's -viewWillDisappear: and -viewDidDisappear: methods are *not* called
 
-We have noticed that under iOS 9 beta 5, -viewWillDisappear: and -viewDidDisappear: *are* called (as expected) and would like for Apple to confirm that this is the correct SDK behavior, so that we can build our app based on that assumption.
+Again, we have noticed that under iOS 9 beta 5, -viewWillDisappear: and -viewDidDisappear: *are* called (as expected).
 
 Background and Discussion
 =========================
