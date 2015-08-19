@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D4EB9CD1B83DD4500A1A1FD /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = TabsUI/README.txt; sourceTree = "<group>"; };
+		1D5AC6DB1B847BD500687F22 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		1DB4D8FF1B442B0900016E18 /* AdaptiveSplitViewAdaptiveSplitViewTabsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveSplitViewAdaptiveSplitViewTabsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB4D9031B442B0900016E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DB4D9041B442B0900016E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		1DB4D8F61B442B0900016E18 = {
 			isa = PBXGroup;
 			children = (
-				1D4EB9CD1B83DD4500A1A1FD /* README.txt */,
+				1D5AC6DB1B847BD500687F22 /* README.txt */,
 				1DB4D9011B442B0900016E18 /* TabsUI */,
 				1DB4D9001B442B0900016E18 /* Products */,
 			);
